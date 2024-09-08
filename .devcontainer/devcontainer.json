@@ -2,7 +2,10 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/ruby
 {
   "name": "quote_editor",
-  "dockerComposeFile": "compose.yaml",
+  "dockerComposeFile": [
+    "compose.yaml",
+    "compose.override.yaml"
+  ],
   "service": "rails-app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
