@@ -41,5 +41,5 @@
 
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "bin/setup"
+  "postCreateCommand": "sudo git config --system --add safe.directory ${containerWorkspaceFolder} && bin/setup"
 }
