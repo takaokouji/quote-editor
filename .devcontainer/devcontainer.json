@@ -31,7 +31,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "Shopify.ruby-lsp"
+        "Shopify.ruby-lsp",
+        "bradlc.vscode-tailwindcss"
       ]
     }
   },
