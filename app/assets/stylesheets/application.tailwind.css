@@ -138,4 +138,8 @@ a {
   .container {
     @apply w-full pr-2 pl-2 ml-auto mr-auto md:pr-4 md:pl-4 md:max-w-[60rem];
   }
+
+  .header {
+    @apply flex flex-wrap gap-3 justify-between mt-4 mb-6 md:mb-8;
+  }
 }
