@@ -106,4 +106,28 @@ a {
   .quote__actions {
     @apply flex flex-[0_0_auto] gap-2 self-start;
   }
+
+  .form {
+    @apply flex flex-wrap gap-2;
+  }
+
+  .form__group {
+    @apply flex-1;
+  }
+
+  .form__input {
+    @apply block w-full max-w-full py-1.5 px-2 border-solid border-2 border-light rounded-md outline-none
+      transition-shadow duration-200
+      focus:[box-shadow:0_0_0_2px_theme(colors.glint)];
+  }
+
+  .form__input--invalid {
+    @apply border-primary;
+  }
+
+  /* Shamelessly stolen from Bootstrap */
+
+  .visually-hidden {
+    @apply !absolute !w-px !h-px !p-0 !-m-px !overflow-hidden ![clip:rect(0,0,0,0)] !whitespace-nowrap !border-0;
+  }
 }
