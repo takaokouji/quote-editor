@@ -1,0 +1,14 @@
+/* Entry point for your PostCSS build */
+@import "tailwindcss/base";
+@import "./config/reset.css";
+
+@import "tailwindcss/components";
+@import "./components/btn.css";
+@import "./components/quote.css";
+@import "./components/form.css";
+@import "./components/visually-hidden.css";
+
+@import "./layouts/container.css";
+@import "./layouts/header.css";
+
+@import "tailwindcss/utilities";

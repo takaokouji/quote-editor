@@ -1,0 +1,5 @@
+@layer components {
+  .header {
+    @apply flex flex-wrap gap-3 justify-between mt-4 mb-6 md:mb-8;
+  }
+}

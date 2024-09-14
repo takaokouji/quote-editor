@@ -1,0 +1,6 @@
+@layer components {
+  /* Shamelessly stolen from Bootstrap */
+  .visually-hidden {
+    @apply !absolute !w-px !h-px !p-0 !-m-px !overflow-hidden ![clip:rect(0,0,0,0)] !whitespace-nowrap !border-0;
+  }
+}

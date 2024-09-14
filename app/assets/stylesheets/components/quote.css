@@ -1,0 +1,10 @@
+@layer components {
+  .quote {
+    @apply flex justify-between text-center items-center gap-3 bg-white rounded-md shadow-sm mb-4 p-2
+      md:py-2 md:px-4;
+
+    &__actions {
+      @apply flex flex-[0_0_auto] gap-2 self-start;
+    }
+  }
+}

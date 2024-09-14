@@ -1,0 +1,5 @@
+@layer components {
+  .error-message {
+    @apply w-full text-primary bg-primary-bg p-2 rounded-md;
+  }
+}
