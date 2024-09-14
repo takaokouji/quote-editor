@@ -19,6 +19,17 @@ class QuotesTest < ApplicationSystemTestCase
     assert_text "Capybara quote"
   end
 
+  test "Cancel creating" do
+    visit quotes_path
+    click_on "New quote"
+
+    assert(has_field?("Name"))
+
+    click_on "Cancel"
+
+    assert(has_no_field?("Name"))
+  end
+
   test "Showing a quote" do
     visit quotes_path
     click_link @quote.name
