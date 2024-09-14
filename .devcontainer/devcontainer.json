@@ -32,7 +32,8 @@
     "vscode": {
       "extensions": [
         "Shopify.ruby-lsp",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode"
       ]
     }
   },
