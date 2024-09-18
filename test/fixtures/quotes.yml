@@ -1,11 +1,14 @@
 first:
   id: 1
+  company: kpmg
   name: First quote
 
 second:
   id: 2
+  company: kpmg
   name: Second quote
 
 third:
   id: 3
+  company: kpmg
   name: Third quote
